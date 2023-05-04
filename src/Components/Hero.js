@@ -1,4 +1,4 @@
-/* eslint-disable jsx-a11y/anchor-is-valid*/
+  /* eslint-disable jsx-a11y/anchor-is-valid*/
 import heroRoses from "../Images/lauza-loistl-pkFo3Lm-d0s-unsplash.jpg";
 export default function Hero() {
   // <!-- ************************** -->
@@ -6,7 +6,7 @@ export default function Hero() {
   // <!-- Set id hero on div for hero/jumbo image -->
   // <!-- ************************** -->
   return (
-    <div className="" id="">
+    <div className="container-fluid" id="hero">
       <img src={heroRoses} className="img-fluid" alt="many roses" />
       <h2>Give the Gift of Roses</h2>
       <span>
